@@ -80,7 +80,7 @@ return array(
 
 	'redis' => array(
 
-		'cluster' => false,
+		'cluster' => true,
 
 		'default' => array(
 			'host'     => 'tunnel.pagodabox.com',
