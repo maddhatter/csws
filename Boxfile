@@ -24,6 +24,6 @@ web1:
     - "rm -f app/storage/views/*"
   before_deploy:
     - "php artisan migrate"
-    - "php basset:build -p -f -n"
+    - "php artisan basset:build -p -f -n"
 cache1:
   type: redis
