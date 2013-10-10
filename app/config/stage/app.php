@@ -2,5 +2,5 @@
 
 return array(
 	'debug' => false,
-	'url'   => 'http://csws.pagoda.com'
+	'url'   => 'http://csws-stg.pagoda.com'
 );
