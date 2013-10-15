@@ -21,6 +21,7 @@
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan optimize"
+			"php artisan debugbar:publish"
 		],
 		"pre-update-cmd": [
 			"php artisan clear-compiled"
